@@ -1,0 +1,15 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tailwindcss build module.css -o style.css",
+    "minify": "npx postcss style.css > style.min.css"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
